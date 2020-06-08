@@ -70,10 +70,97 @@
     		<main id="main" class="site-main">
 
           <!-- The Registration Form  -->
-          <section id="couple" class="section-row grid-x grid-padding-x couple-section">
-          	<div class="grid-x grid-padding-x large-12">
-          		
-          	</div><!-- End .large-12 -->
+           <section id="couple" class="section-row couple-section">
+                <center>
+                    <p style="background-color:teal; color:white; font-weight:bold; font-size:30px;">Find Your Perfect Match Today!</p>
+                </center>
+                <form action="" method="POST">
+                    <div class="grid-container">
+                        <div class="grid-x grid-padding-x">
+                            
+                                <div class="small-3 columns">
+                                    <label for="middle-label" class="text-right middle"><h4>Gender:</h4></label>
+                                </div>
+                               <div class="columns">
+                                   <input type="radio" name="gender" value="female" id="gfemale" required><label for="gfemale">FEMALE</label>
+                                   <input type="radio" name="gender" value="male" id="gmale"><label for="gmale">MALE</label>
+                               </div>
+                            
+                        </div>
+                    </div>
+                    <div class="grid-container">
+                        <div class="grid-x grid-padding-x">   
+                            <div class="small-3 columns">
+                                <label for="middle-label"><h4>Age:</h4></label>
+                            </div>
+                           <div class="columns">
+                               <input type="number" name="age"  placeholder="From" required>
+                            </div>
+                            <div class="columns" style="padding-left:2px;">
+                               <input type="number" name="age"  placeholder="To">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-container">
+                        <div class="grid-x grid-padding-x">                          
+                            <div class="small-3 columns">
+                                <label for="middle-label"><h4>Religion:</h4></label>
+                            </div>
+                            <div class="columns">
+                                <select required>
+                                    <option value="">SELECT</option>
+                                    <option value="">Hindu</option>
+                                    <option value="">Jain</option>
+                                    <option value="">Muslims</option>
+                                    <option value="">Sikh</option>
+                                    <option value="">Buddhist</option>
+                                    <option value="">Others</option>
+                                    <!--you can add more option-->
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-container">
+                        <div class="grid-x grid-padding-x">                          
+                            <div class="small-3 columns">
+                                <label for="middle-label"><h4>Caste:</h4></label>
+                            </div>
+                            <div class="columns">
+                                <select required>
+                                    <option value="">SELECT</option>
+                                    <option value="">Kayasth</option>
+                                    <!--you can add more option-->
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid-container">
+                        <div class="grid-x grid-padding-x">   
+                            <div class="small-3 columns">
+                                <label for="middle-label"><h4>Marital Status:</h4></label>
+                            </div>
+                            <div class="columns">
+                                <select required>
+                                    <option value="">SELECT</option>
+                                    <option value="">Bachelor</option>
+                                    <option value="">Divorced</option>
+                                    <option value="">Widow</option>
+                                    <option value="">Widower</option>
+                                    <!--you can add more option-->
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <center>
+                        <label for="search" class="button glow-button" style="background-color:teal;"><h4 style="color:white;">Search</h4></label>
+                            <input type="submit" id="search" class="show-for-sr">
+                        </center>
+                            </div>
+                            
+                    </form>
+          	<!-- End .large-12 -->
+                
           </section>
           <!-- End #couple -->
 
