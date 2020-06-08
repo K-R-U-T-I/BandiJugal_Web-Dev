@@ -579,12 +579,22 @@ body:not(.home) .fixed-header nav ul li.current_page_item a:before, body:not(.ho
 /*--------------------------------------------------------------
 Couple Section
 --------------------------------------------------------------*/
+/*
 .couple-section {
   max-width: none;
   background: #eee;
   margin-top: 826px;
   padding-bottom: 8.75rem;
   position: relative;
+  z-index: 2;
+}
+*/
+.couple-section {
+  max-width: none;
+  background: #eee;
+  margin: 826px 150px 0px 150px;
+  padding-bottom: 3.75rem;
+  position:relative;
   z-index: 2;
 }
 .couple-section .large-12 {
@@ -648,6 +658,12 @@ Couple Section
   font-family: "Prata", serif;
   color: #788aa3;
   text-align: center;
+}
+/*  media query for mobile sizes*/
+@media screen and (max-width: 425px) {
+  div.example {
+    font-size: 2px;
+  }
 }
 
 /*--------------------------------------------------------------
