@@ -661,10 +661,13 @@ Couple Section
 }
 /*  media query for mobile sizes*/
 @media screen and (max-width: 425px) {
-  div.example {
-    font-size: 2px;
+  .couple-section{
+    font-size: 0.7px;
+    width:100%;
+    margin-left:0px;
   }
 }
+
 
 /*--------------------------------------------------------------
 Home Galleries
