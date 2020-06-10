@@ -1431,6 +1431,23 @@ Contact Section
   font-style: normal;
   text-decoration: underline;
 }
+/* .......verified profile .....*/
+.verified{
+  background-size:cover;
+  background: #eee;
+  height:125px;
+  position:relative;
+  index:2;
+}
+.inner-verified{
+    margin:0% 5% 0.5% 5%; 
+    background-color:#95B9C7; 
+    width:100%; 
+    height:250px; 
+    z-index:3; 
+    position:relative; 
+    border-radius:5px;
+}
 
 /*--------------------------------------------------------------
 RSVP Section
